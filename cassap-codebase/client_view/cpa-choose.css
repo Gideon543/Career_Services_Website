@@ -1,0 +1,70 @@
+.cpa-image{
+   width: 30%; 
+   border-radius: 50%;
+   margin-bottom: 20px;
+}
+.cpa-image img{
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+.cpa-details .book button{
+    background-image: linear-gradient(to left, #851c2a 0%,#917d80 );
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+
+}
+.cpa-details .book button:hover{
+    background-image: linear-gradient(to right, #851c2a 0%,#917d80 );
+    transition: 2s;
+    
+}
+.cpa-details .cpa-name{
+   
+}
+.cpa-details .cpa-class-span{
+   
+}
+.cpa-details .cpa-dept, .cpa-class{
+    color: rgb(138, 138, 138);
+}
+
+.cpa-row{
+    margin-bottom: 30px !important;
+}
+.cpa-row .cpa-col{
+    width: 320px;
+    min-width: 300px;
+    height: fit-content;
+    margin-right: 30px;
+    margin: 15px 0px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    padding: 25px 20px;
+    border-radius: 0.8rem;
+
+}
+
+.cpa-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width:800px){
+
+    .cpa-row .cpa-col{
+    width: 100%;
+    
+
+}
+
+.cpa-row{
+    align-items: center;
+    justify-content: center;
+}
+}
